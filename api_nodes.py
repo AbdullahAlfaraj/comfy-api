@@ -1058,7 +1058,7 @@ class APS_Seed:
         }
 
     RETURN_TYPES = ("INT",)
-    RETURN_NAMES = "seed"
+    RETURN_NAMES = ("seed",)
     FUNCTION = "getSeed"
 
     CATEGORY = "Auto-Photoshop-SD"
